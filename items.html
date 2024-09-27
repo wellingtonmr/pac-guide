@@ -1,0 +1,49 @@
+<!DOCTYPE hmtl>
+<html>
+	<header>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Items</title>
+		<meta name="author" content="Wellington Ribeiro">
+		<link rel="stylesheet" href="css\index.css">
+	</header>
+
+	<body>
+		<header class="header">
+			<div class="container">
+				<div class="flex flex--row">
+				<button class="header__button" onclick="toggleNav()">
+					<div id="bar-one"></div>
+					<div id="bar-two"></div>
+					<div id="bar-three"></div>
+				</button>
+				<div class="header__title">
+					<img src="img\logo" alt="logo">
+					<h2>pokemon</h2>
+				</div>
+			</div>
+			<div class="flex">
+				<nav id="nav" class="hidden">
+					<ul class="nav__list flex">
+						<li class="nav__item">
+							<a class="nav__link" href="index.html">home</a>
+						</li>
+						<li class="nav__item">
+							<a class="nav__link" href="pokemons.html">pokemons</a>
+						</li>
+						<li class="nav__item">
+							<a class="nav__link nav__link--active">items</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<main class="main">
+		</main>
+
+		<footer class="footer">
+		</footer>
+		<script src="script/nav.js"></script>
+	</body>
+</html>

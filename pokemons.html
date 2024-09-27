@@ -1,0 +1,58 @@
+<!DOCTYPE hmtl>
+<html>
+	<header>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Pokemons</title>
+		<meta name="author" content="Wellington Ribeiro">
+		<link rel="stylesheet" href="css\index.css">
+	</header>
+
+	<body>
+		<header class="header">
+			<div class="container">
+				<div class="flex flex--row">
+				<button class="header__button" onclick="toggleNav()">
+					<div id="bar-one"></div>
+					<div id="bar-two"></div>
+					<div id="bar-three"></div>
+				</button>
+				<div class="header__title">
+					<img src="img\logo" alt="logo">
+					<h2>pokemon</h2>
+				</div>
+			</div>
+			<div class="flex">
+				<nav id="nav" class="hidden">
+					<ul class="nav__list flex">
+						<li class="nav__item">
+							<a class="nav__link" href="index.html">home</a>
+						</li>
+						<li class="nav__item">
+							<a class="nav__link nav__link--active">pokemons</a>
+						</li>
+						<li class="nav__item">
+							<a class="nav__link" href="items.html">items</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<main class="main">
+			<section id="poke-001" class="poke-section" onclick="showPlus('poke-001')">
+					<img src="img\pokemons\001.png" alt="001">
+					<h3>001</h3>
+					<div class="poke-section__synergies"></div>
+					<div class="poke-section__stats"></div>
+				<div class="poke-section__plus hidden">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
+				</div>
+			</section>
+		</main>
+
+		<footer class="footer">
+		</footer>
+		<script src="script/nav.js"></script>
+	</body>
+</html>
